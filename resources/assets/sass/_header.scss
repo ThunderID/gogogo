@@ -1,0 +1,14 @@
+// TOPBAR
+.topbar { 
+	background: $blue;
+	color:$white;
+	@extend .pt-xs;
+	@extend .pb-xs;
+}
+
+// TOPBAR
+.header { 
+	.menu { 
+		a { text-transform: uppercase; }
+	}
+}

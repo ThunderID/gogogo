@@ -1,0 +1,25 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "resources/assets/sass/variables";
+@import "resources/assets/sass/backgrounds";
+@import "resources/assets/sass/text";
+@import "resources/assets/sass/space";
+@import "resources/assets/sass/header";
+@import "resources/assets/sass/footer";
+@import "resources/assets/sass/main/tours";
+
+
+body, html { background: $light-gray; letter-spacing: 1px;}
+
+a { 
+	color:$blue; 
+	&:hover { 
+		color:$orange;
+		text-decoration: none;
+		-webkit-transition: all .25s ease;
+		   -moz-transition: all .25s ease;
+		    -ms-transition: all .25s ease;
+		     -o-transition: all .25s ease;
+		        transition: all .25s ease;
+	}
+}

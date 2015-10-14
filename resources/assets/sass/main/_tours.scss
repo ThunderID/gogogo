@@ -1,0 +1,37 @@
+.tours.grid { 
+	.grid-item { 
+		img { min-width: 100%; max-width: 100%;}		
+		.title { 
+			background: $black; 
+			color:$white;
+			@extend .text-uppercase;
+
+			display: block;
+			display: -webkit-box;
+			max-width: 100%;
+			height: 45px;
+			margin: 0 auto;
+			font-size: 14px;
+			line-height: 1.4;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.desc { 
+			background: $blue; 
+			color:$white;
+		}
+
+		&:hover { 
+			.title { 
+				color:$orange; 
+				-webkit-transition: all .50s ease;
+				   -moz-transition: all .50s ease;
+				    -ms-transition: all .50s ease;
+				     -o-transition: all .50s ease;
+				        transition: all .50s ease;
+			}
+		}
+	}
+}

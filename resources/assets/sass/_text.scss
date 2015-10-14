@@ -1,0 +1,16 @@
+// COLORS
+.text-orange { color:$orange; }
+.text-blue { color:$blue; }
+.text-black { color:$black; }
+.text-white { color:$white; }
+.text-green { color:$green; }
+.text-red { color:$red; }
+
+.text-uppercase { text-transform: uppercase; }
+
+.subtitle { 
+	@extend .text-uppercase;
+	@extend .text-blue;
+	font-size:14px;
+	letter-spacing: 2px;
+}
