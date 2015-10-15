@@ -14,11 +14,22 @@
 
 @section('header')
 	<div class="row">
+		{{-- MOBILE --}}
 		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-			<a href='{{route("web.home")}}'>{!! Html::image('images/logo/logo.png', 'Gogogo.id Logo', ['height' => 40]) !!}</a>
+			<div class='text-center hidden-md hidden-lg'>
+				<a href='{{route("web.home")}}'>{!! Html::image('images/logo/logo.png', 'Gogogo.id Logo', ['height' => 40]) !!}</a>
+			</div>
+			<div class='hidden-xs hidden-sm'>
+				<a href='{{route("web.home")}}'>{!! Html::image('images/logo/logo.png', 'Gogogo.id Logo', ['height' => 40]) !!}</a>
+			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 pt-sm text-right menu">
-			{!! Html::link(route('web.home'), 'Home', ['class' => 'ml-md']) !!}
+			<div class='text-center hidden-md hidden-lg'>
+				{!! Html::link(route('web.home'), 'Home', ['class' => 'ml-md']) !!}
+			</div>
+			<div class='hidden-xs hidden-sm'>
+				{!! Html::link(route('web.home'), 'Home', ['class' => 'ml-md']) !!}
+			</div>
 			{{-- {!! Html::link(route('web.home'), 'Paket Tour', ['class' => 'ml-md']) !!} --}}
 			{{-- {!! Html::link(route('web.home'), 'Sewa Mobil', ['class' => 'ml-md']) !!} --}}
 		</div>
@@ -27,7 +38,7 @@
 
 @section('footer')
 	<div class="row mt-xl mb-xl">
-		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 pt-xs">
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pt-xs">
 			{!! Html::image('images/logo/logo.png', 'Gogogo.id Logo', ['height' => 40]) !!}
 			<p class='mt-xs ml-md'>
 				Office:
@@ -43,7 +54,7 @@
 				<br>Senin-Jumat: 09.00 - 16.00 
 			</p>
 		</div>
-		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 			<h4 class='mt-sm'>TENTANG KAMI</h4>
 			<p class='mt-sm'>
 				Sedang ada waktu senggang dan bingung mau ngapain? Cari aja info di Gogogo.id tentang berbagai kegiatan yang

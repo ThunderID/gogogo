@@ -21,9 +21,11 @@
 				<img src="{{ $slider['image']}}" style='width:100%'>
 				<div class="container">
 					<div class="carousel-caption">
-						<h1>{{$slider['title']}}</h1>
+						<h1 class='hidden-sm hidden-xs'>{{$slider['title']}}</h1>
+						<h3 class='hidden-md hidden-lg'>{{$slider['title']}}</h3>
 						<p>{{$slider['caption']}}</p>
-						<p><a class="btn btn-lg btn-primary" href="{{$slider['link']}}" role="button">{{ $slider['button']}}</a></p>
+						<p class='hidden-xs hidden-sm'><a class="btn btn-lg bg-orange text-black" href="{{$slider['link']}}" role="button">{{ $slider['button']}}</a></p>
+						<p class='hidden-md hidden-lg'><a class="btn bg-orange text-black" href="{{$slider['link']}}" role="button">{{ $slider['button']}}</a></p>
 					</div>
 				</div>
 			</div>

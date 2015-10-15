@@ -46,7 +46,7 @@ abstract class Controller extends BaseController
 								'title' => '2D/1N Family Camp Ranu Gumbolo, Semeru',
 								'caption' => 'Mulai dari Rp. 800.000',
 								'link'	=> route('web.tour', ['slug' => str_slug('2D/1N Family Camp Ranu Gumbolo, Semeru')]),
-								'button'=> 'Detail',
+								'button'=> 'Go!',
 							]);
 	}
 
