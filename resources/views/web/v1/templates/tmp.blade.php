@@ -19,14 +19,14 @@
 
 		<link rel="icon" type="image/png" href="{{asset('images/favicon.png')}}">
 	</head>
-	<body>
+	<body class='bg-header'>
 		<header>
 			<div class="container-fluid topbar">
 				@yield('top_bar')
 			</div>
 
-			<div class='bg-header'>
-				<div class="container pt-sm pb-sm header">
+			<div class='bg-white'>
+				<div class="container pt-sm pb-sm header ">
 					@yield('header')
 				</div>
 			</div>
