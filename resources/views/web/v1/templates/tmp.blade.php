@@ -25,7 +25,7 @@
 				@yield('top_bar')
 			</div>
 
-			<div class='bg-white'>
+			<div class='bg-header'>
 				<div class="container pt-sm pb-sm header">
 					@yield('header')
 				</div>
