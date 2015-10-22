@@ -16,5 +16,6 @@ elixir(function(mix) {
     	.scripts('bootstrap.min.js')
     	.scripts('jquery-2.1.4.min.js')
     	.version(['public/css/app.css', 'public/js/bootstrap.min.js', 'public/js/jquery-2.1.4.min.js'])
-    	.copy('resources/assets/images', 'public/images');
+    	.copy('resources/assets/images', 'public/images')
+    	.copy('resources/assets/fonts', 'public/build/fonts');
 });

@@ -20,7 +20,7 @@
 		<link rel="icon" type="image/png" href="{{asset('images/favicon.png')}}">
 	</head>
 	<body class='bg-header'>
-		<header>
+		<header class='header_bar'>
 			<div class="container-fluid topbar">
 				@yield('top_bar')
 			</div>

@@ -43,9 +43,9 @@ abstract class Controller extends BaseController
 
 		$this->sliders->push([
 								'image' => 'http://drive.thunder.id/file/public/3/1/2015/10/13/16/camp-ranu-gumbolo.jpg', 
-								'title' => '2D/1N Family Camp Ranu Gumbolo, Semeru',
+								'title' => '2D/1N Family Camp Ranu Kumbolo, Semeru',
 								'caption' => 'Mulai dari Rp. 800.000',
-								'link'	=> route('web.tour', ['slug' => str_slug('2D/1N Family Camp Ranu Gumbolo, Semeru')]),
+								'link'	=> route('web.tour', ['slug' => str_slug('2D/1N Family Camp Ranu Kumbolo, Semeru')]),
 								'button'=> 'Go!',
 							]);
 	}
@@ -76,8 +76,8 @@ abstract class Controller extends BaseController
 
 		// CAMPING RANU KUMBOLO
 		$this->tours->push(new Tour([
-										'name'      => '2D/1N Family Camp Ranu Gumbolo, Semeru',
-										'slug'      => str_slug('2D/1N Family Camp Ranu Gumbolo, Semeru'),
+										'name'      => '2D/1N Family Camp Ranu Kumbolo, Semeru',
+										'slug'      => str_slug('2D/1N Family Camp Ranu Kumbolo, Semeru'),
 										'summary'   => '',
 										'ittinary'  => 'Lorem ipsum Veniam commodo incididunt pariatur exercitation ex ex sit magna nostrud sit non ea enim culpa aute do non Duis in amet non dolor fugiat.',
 										'include'	=> '',
